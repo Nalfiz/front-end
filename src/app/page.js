@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Home() {
   return (
@@ -17,13 +17,13 @@ export default function Home() {
           <a className="nav-link active" aria-current="page" href="https://www.cmtc.ac.th/" target="blank">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://open.spotify.com/" target="blank">About</a>
+          <a className="nav-link" href="https://getbootstrap.com/docs/5.3/components/carousel/" target="_blank">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://getbootstrap.com/" target="blank"> Service </a>
+          <a className="nav-link" href="https://www.youtube.com/" target="_blank">Servic</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://www.youtube.com/?app=desktop&gl=TH&hl=th" target="blank"> Contact </a>
+          <a className="nav-link active" aria-current="page" href="https://open.spotify.com/" target="blank">Contact </a>
         </li>
       </ul>
       <form className="d-flex" role="search">
@@ -41,7 +41,7 @@ export default function Home() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://img.freepik.com/free-photo/fuji-mountain-with-milky-way-night_335224-104.jpg?w=1380&t=st=1720413970~exp=1720414570~hmac=5ee46c665b4c0c4240176f07331175937c9a18916f6431cdbf7aab2ea225fff1" className="d-block w-100" alt="..." />
+      <img src="https://static.vecteezy.com/system/resources/previews/030/608/660/large_2x/fuji-mountain-and-lake-kawaguchiko-at-sunset-japan-beautiful-scenic-landscape-of-mountain-fuji-or-fujisan-with-reflection-on-shoji-lake-at-dawn-with-twilight-sky-japan-ai-generated-free-photo.jpg" className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
       <img src="https://m.media-amazon.com/images/I/51y8GUVKJoL.jpg" className="d-block w-100" alt="..." />
@@ -62,8 +62,8 @@ export default function Home() {
 <br></br>
 <div className="row">
       <div className="col-4 text center" >
-          <div className="card" style={{width: '25rem'}}>
-           <img src="https://cms-b-assets.familysearch.org/dims4/default/b27779d/2147483647/strip/true/crop/856x535+0+0/resize/800x500!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F36%2F6b%2Fe9b21c5155646968c4a562b1f989%2Fjapanese-woman-with-kimono-fashion.jpeg"width="50" height={285} className="card-img-top" alt="..." />
+          <div className="card" style={{width: '34rem'}}>
+           <img src="https://cms-b-assets.familysearch.org/dims4/default/b27779d/2147483647/strip/true/crop/856x535+0+0/resize/800x500!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F36%2F6b%2Fe9b21c5155646968c4a562b1f989%2Fjapanese-woman-with-kimono-fashion.jpeg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -72,8 +72,8 @@ export default function Home() {
           </div>
               </div>
       <div className="col-4 text center" >
-          <div className="card" style={{width: '25rem'}}>
-            <img src="https://www.pdx.edu/world-languages/sites/worldlanguages.web.wdt.pdx.edu/files/2020-08/wll-japanese.jpg" width="50" height={285} className="card-img-top" alt="..." />
+          <div className="card" style={{width: '34rem'}}>
+            <img src="https://www.pdx.edu/world-languages/sites/worldlanguages.web.wdt.pdx.edu/files/2020-08/wll-japanese.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -82,8 +82,8 @@ export default function Home() {
           </div>
               </div>
       <div className="col-4 text center" >
-          <div className="card" style={{width: '25rem'}}>
-            <img src="https://i0.wp.com/blog.eternal3d.com/wp-content/uploads/2024/02/The-Best-3-Famous-Japanese-Art-photo.png?w=1000&ssl=1" width="50" className="card-img-top" alt="..." />
+          <div className="card" style={{width: '34rem'}}>
+            <img src="https://i0.wp.com/blog.eternal3d.com/wp-content/uploads/2024/02/The-Best-3-Famous-Japanese-Art-photo.png?w=1000&ssl=1" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +97,7 @@ export default function Home() {
       <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
         <svg className="bi" width={30} height={24}><use xlinkHref="#bootstrap" /></svg>
       </a>
-      <span className="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      <span className="mb-3 mb-md-0 text-body-secondary">Â© 2024 Company, Inc</span>
     </div>
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
       <li className="ms-3"><a className="text-body-secondary" href="#"><svg className="bi" width={24} height={24}><use xlinkHref="#twitter" /></svg></a></li>
@@ -106,9 +106,9 @@ export default function Home() {
     </ul>
   </footer>
 </div>
+
 </div>
    
 </>
   );
 }
-
