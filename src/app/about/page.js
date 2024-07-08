@@ -17,13 +17,21 @@ export default function Home() {
           <a className="nav-link active" aria-current="page" href="https://www.cmtc.ac.th/" target="blank">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://open.spotify.com/" target="blank">About</a>
+          <a className="nav-link" href="#">About</a>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Service
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Service</a></li>
+            <li><a className="dropdown-item" href="#">Service</a></li>
+            <li><hr className="dropdown-divider" /></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://getbootstrap.com/" target="blank"> Service </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="https://www.youtube.com/?app=desktop&gl=TH&hl=th" target="blank"> Contact </a>
+          <a className="nav-link disabled" aria-disabled="true">Contact </a>
         </li>
       </ul>
       <form className="d-flex" role="search">
